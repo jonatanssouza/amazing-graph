@@ -1,9 +1,7 @@
 # Amazing Graph - DevChallenge
 
-<img src="./design/desktop.png" alt="desktop preview" width="500">
+<img src="./design/desktop.png" alt="desktop preview" align="left" width="500">
 <img src="./design/mobile.png" alt="moobile preview" height="253">
-<br>
-<br>
 
 ## Desafio:
 
@@ -16,7 +14,7 @@ Criar uma página sobre um site de criação de gráficos.
 ### Requisitos:
 
 - **A página deve ser semelhante ao design.**
-- **A página deve se responsiva.** 
+- **A página deve ser responsiva.** 
 
 ### Tecnologias utilizadas:
 
