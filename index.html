@@ -1,5 +1,74 @@
-DevChallenge
-Home Features Contact
-Create amazing graphics
-Colaborate and create beautiful graphics with your team
-Start now
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Amazing-Graph</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <h2 class="logo">DevChallenge</h2>
+        <nav class="nav">
+          <i class="fas fa-bars icon-menu"></i>
+          <i class="fas fa-times icon-menu hidden"></i>
+          <ul class="menu hidden">
+            <li><a class="menu__link" href="#">Home</a></li>
+            <li><a class="menu__link" href="#">Features</a></li>
+            <li><a class="menu__link" href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!--container-->
+    </header>
+    <!--header-->
+
+    <main class="main">
+      <div class="container">
+        <img
+          class="image"
+          alt="Illustration of a person giving a presentation, for two people, that contains several graphics."
+          src="./assets/team.jpg"
+        />
+        <div class="content">
+          <h1 class="title">Create amazing graphics</h1>
+          <p class="text">
+            Colaborate and create beautiful graphics with your team
+          </p>
+          <a class="button" href="#" role="button">Start now</a>
+        </div>
+        <!--content-->
+      </div>
+      <!--container-->
+    </main>
+    <!--main-->
+    <script
+      src="https://kit.fontawesome.com/0624af2ac2.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      let icon = document.querySelectorAll(".icon-menu");
+      let menu = document.querySelector(".menu");
+      let close = document.querySelector(".fa-times");
+      let burger = document.querySelector(".fa-bars");
+
+      // show and hidden menu, close icon, burguer icon
+      icon.forEach( 
+         el => el.addEventListener("click", function(){
+            menu.classList.toggle("hidden");
+            close.classList.toggle("hidden");
+            burger.classList.toggle("hidden"); 
+         })
+       );
+    </script>
+  </body>
+</html>
