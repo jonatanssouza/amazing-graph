@@ -22,3 +22,4 @@ Criar uma página sobre um site de criação de gráficos.
 - CSS
 - Flexbox CSS
 - Javascript
+- FontAwesome
